@@ -10,7 +10,7 @@ import './Main.css'
 //Estado: informações mantidas pelo componentes (imutabilidade)
 
 function App() {
-  const [devs, setDevs] = useState('')
+  const [devs, setDevs] = useState([])
 
   const [github_username, setGithubUsername] = useState('')
   const [techs, setTechs] = useState('')
